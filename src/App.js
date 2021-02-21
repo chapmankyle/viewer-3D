@@ -1,11 +1,10 @@
-import './App.css';
-
-import Viewer from './Viewer'
+import Navbar from './components/Navbar'
+import Viewer from './components/Viewer'
 
 function App() {
   return (
     <div className="App">
-      <nav>3D Viewer</nav>
+      <Navbar />
 
       <Viewer />
     </div>
